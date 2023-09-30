@@ -1,7 +1,7 @@
 <!--<img src="https://github.com/miloserdev/msx/assets/37951044/8c669d7f-e6a0-4e9b-beab-816d857a1b46"/>  -->
 <img src="https://github.com/miloserdev/msx/assets/37951044/4ba6046f-bbcc-4415-9cc2-4c037700737d"/>  
   
-# MSX ESP32/ESP8266  
+# MSX ESP8266  
 ## ESP WiFi & ESP-NOW Networking  
 ### A pure FreeRTOS-SDK version  
   
