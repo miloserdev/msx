@@ -1,14 +1,17 @@
-# ESP8266 ESPNOW  
-## ESP ESP-NOW Networking  
+<!--<img src="https://github.com/miloserdev/msx/assets/37951044/8c669d7f-e6a0-4e9b-beab-816d857a1b46"/>  -->
+<img src="https://github.com/miloserdev/msx/assets/37951044/4ba6046f-bbcc-4415-9cc2-4c037700737d"/>  
+  
+# MSX ESP32/ESP8266  
+## ESP WiFi & ESP-NOW Networking  
 ### A pure FreeRTOS-SDK version  
-
-## Features  
+  
+### Features  
  * WiFi  
  * ESP-NOW  
  * OTA Updates  
  * JSON Command Parser  
 
-In this case we can setup peer-to-peer connecion throuth 2.4GHz and send packets with size less than 250 bytes  
+In this case we can setup peer-to-peer connecion throuth 2.4GHz and send packets with size of 250 bytes  
 ESP-NOW protocol can be used without wifi connection  
 ESP-NOW Features  
  * Multicast (non-encrypted / encrypted data)  
