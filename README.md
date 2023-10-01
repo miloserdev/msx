@@ -28,6 +28,20 @@ ESP-NOW Features
 // only if JSON data length less than 200 bytes  
 
 
+### OTA  
+Be sure that your `partitions.csv` contains OTA  
+`make menuconfig` > `Partition Tables`  
+
+
+| Name | Type | SubType | Offset      | Size         | Flags |
+|------|------|-----------|-------------|-------------|------|
+| *    |      |           |             |         |          |
+| ota_0| 0    | ota_0     | 0x10000     | 0xF0000 |          |
+|      |      |           |             |         |          |
+
+Update example `curl 192.168.1.101:8066/update --no-buffer --data-binary @./build/msx.bin --output -`  
+
+
 ### Errata  
     1. Print cJSON number variables causes Guru Meditation :D;  
         FIX: Need to disable "nano" formatting in menuconfig;  
